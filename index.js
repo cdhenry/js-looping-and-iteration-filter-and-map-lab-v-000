@@ -11,6 +11,6 @@ function exactMatch(drivers, obj){
   return drivers.filter(function (driver) { return driver[Object.keys(obj)[0]] === Object.values(obj)[0]; });
 }
 
-function exactMatchToList(){
+function exactMatchToList(drivers, obj){
 
 }
